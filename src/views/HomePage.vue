@@ -2,20 +2,20 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar>
-        <ion-title>Blank</ion-title>
+        <ion-title>Bem-vindo</ion-title>
       </ion-toolbar>
     </ion-header>
 
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Blank</ion-title>
+          <ion-title size="large">APK</ion-title>
         </ion-toolbar>
       </ion-header>
 
       <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        <strong>Meu primeiro APK!! 😍</strong>
+        <p>estou muito feliz...</p>
       </div>
     </ion-content>
   </ion-page>
@@ -27,8 +27,8 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue
 
 <style scoped>
 #container {
+  background-color: rgba(255, 0, 0, 0.527);
   text-align: center;
-  
   position: absolute;
   left: 0;
   right: 0;
@@ -37,6 +37,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue
 }
 
 #container strong {
+  color: black;
   font-size: 20px;
   line-height: 26px;
 }
